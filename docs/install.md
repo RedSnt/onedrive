@@ -72,7 +72,7 @@ CentOS 7.x and RHEL 7.x reached End of Life status on June 30th 2024 and is no l
 
 ### Dependencies: Fedora > Version 18 / CentOS 8.x / CentOS 9.x / RHEL 8.x / RHEL 9.x
 ```text
-sudo dnf groupinstall 'Development Tools'
+sudo dnf group install development-tools
 sudo dnf install libcurl-devel sqlite-devel
 curl -fsS https://dlang.org/install.sh | bash -s dmd
 ```
